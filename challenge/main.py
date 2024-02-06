@@ -27,6 +27,7 @@ def extract_raw(date_str:str=None) -> dict:
     return file_paths
 
 def merge_raw(file_paths:dict, out_path_csv=str) -> pd.DataFrame:
+
     # tengo tres data frames y quiero hacer un merge de los tres
     """
         
